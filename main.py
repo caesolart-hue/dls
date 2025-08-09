@@ -41,11 +41,6 @@ async def send(ctx, channel_name: str, *, message: str = ""):
         await ctx.send(f"❌ Channel '{channel_name}' not found.")
         return
 
-    files = []
-    for attachment in ctx.message.attachments:
-        file = await attachment.to_file()
-        files.append(file)
-
     # Get color based on guild and origin channel
     server_colors = SERVER_CHANNEL_COLORS.get(guild_id, {})
     hex_color = server_colors.get(origin_channel.name.lower(), "#99AAB5")  # Default grey
@@ -60,6 +55,13 @@ async def send(ctx, channel_name: str, *, message: str = ""):
         color=embed_color
     )
     embed.set_footer(text=f"Letter from {origin_channel.name.capitalize()}")
+
+    # Handle attachments
+    if len(ctx.message.attachments) == 1:
+        embed.set_image(url=ctx.message.attachments[0].url)
+        files = []
+    else:
+        files = [await attachment.to_file() for attachment in ctx.message.attachments]
 
     try:
         await destination_channel.send(embed=embed, files=files)
