@@ -9,9 +9,8 @@ SERVER_CHANNEL_COLORS = {
         "minivamp": "#7289DA",   # Blue
     },
     1402501839664189581: {  # Horizonbound
-        "memes": "#3498DB",     # Blue variant
-        "general": "#FEE75C",   # Yellow
-        "projects": "#5865F2"   # Discord blurple
+        "harlowe": "#d8be70",     # Gold
+        "ellis": "#ffc4d7",   # Pink
     }
 }
 
