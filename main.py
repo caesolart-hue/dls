@@ -11,7 +11,11 @@ SERVER_CHANNEL_COLORS = {
     1402501839664189581: {  # Horizonbound
         "harlowe": "#d8be70",     # Gold
         "ellis": "#ffc4d7",   # Pink
-    }
+    },
+    1402501839664189581: {  # Furrycon
+        "mars": "#ac6c24",     # Amber
+        "ava": "#8b9b5b",   # Green
+
 }
 
 intents = discord.Intents.default()
