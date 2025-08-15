@@ -12,7 +12,7 @@ SERVER_CHANNEL_COLORS = {
         "harlowe": "#d8be70",     # Gold
         "ellis": "#ffc4d7",   # Pink
     },
-    1402501839664189581: {  # Furrycon
+    1403956190857265172: {  # Furrycon
         "mars": "#ac6c24",     # Amber
         "ava": "#8b9b5b",   # Green
 
