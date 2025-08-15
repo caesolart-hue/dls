@@ -13,9 +13,9 @@ SERVER_CHANNEL_COLORS = {
         "ellis": "#ffc4d7",   # Pink
     },
     1403956190857265172: {  # Furrycon
-        "mars": "#ac6c24",     # Amber
-        "ava": "#8b9b5b",   # Green
-
+        "mars": "#ac6c24",        # Amber
+        "ava": "#8b9b5b",         # Green
+    }
 }
 
 intents = discord.Intents.default()
