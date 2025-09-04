@@ -15,6 +15,15 @@ SERVER_CHANNEL_COLORS = {
     1403956190857265172: {  # Furrycon
         "mars": "#ac6c24",        # Amber
         "ava": "#8b9b5b",         # Green
+        "mattie": "#afeeee",         # Blue
+        "alorah": "#ff7f50",         # Orange
+        "david": "#800020",         # Maroon
+        "teddy": "#003427",         # Darkteal
+        "lenore": "#F7F7F7",         # White
+        "gabriel": "#A3BF9F",         # Mint
+        "inna": "#594A4A",         # Grey
+        "etta": "#C93A3A",         # Red
+
     }
 }
 
