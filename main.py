@@ -20,9 +20,9 @@ SERVER_CHANNEL_COLORS = {
         "david": "#800020",         # Maroon
         "teddy": "#003427",         # Darkteal
         "lenore": "#F7F7F7",         # White
-        "gabriel": "#A3BF9F",         # Mint
-        "inna": "#594A4A",         # Grey
-        "etta": "#C93A3A",         # Red
+        "gabriel": "#93E9BE",         # Mint
+        "inna": "#171616",         # Grey
+        "etta": "#B11B1B",         # Red
 
     }
 }
